@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv .venv)",
+      "Bash(py --version)",
+      "Bash(where py:*)",
+      "Read(//c/Users/theof/AppData/Local/Programs/**)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/theof/AppData/Local/Microsoft/WindowsApps/**)",
+      "Read(//usr/**)",
+      "Read(//c/Users/theof/miniconda3/**)",
+      "Read(//c/Users/theof/anaconda3/**)",
+      "Bash(/c/Users/theof/miniconda3/python.exe --version)",
+      "Bash(/c/Users/theof/miniconda3/python.exe -m venv .venv)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(.venv/Scripts/pip show:*)",
+      "Bash(.venv/Scripts/python -c \"import pandas, numpy, scipy, sklearn, fastapi, uvicorn, streamlit, sentence_transformers, matplotlib, seaborn, joblib, pytest, httpx; print\\('All imports OK'\\)\")",
+      "Bash(.venv/Scripts/python -c \"import pandas, numpy, scipy, sklearn, fastapi, uvicorn, sentence_transformers, matplotlib, seaborn, joblib, pytest, httpx; print\\('All imports OK'\\)\")",
+      "Bash(.venv/Scripts/python -m src.train)",
+      "Bash(grep -rn \"\\\\\\\\\\\\\\\\u2192\\\\|\\\\u2192\" c:/Users/theof/Documents/CODE/GIT/recommendation-system/src/ --include=\"*.py\" -l)"
+    ]
+  }
+}

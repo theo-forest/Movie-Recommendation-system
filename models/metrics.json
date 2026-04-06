@@ -1,0 +1,24 @@
+{
+  "collaborative_filter": {
+    "RMSE": 1.1023472996066142,
+    "MAE": 0.8394286704254357,
+    "n_evaluated": 100,
+    "Precision@10": 0.072,
+    "Recall@10": 0.022528521070893953,
+    "NDCG@10": 0.08173887676913509,
+    "HitRate@10": 0.32,
+    "n_users_evaluated": 25,
+    "Coverage@10": 0.03715869431328269
+  },
+  "content_filter": {
+    "note": "no rating-prediction; evaluated at query time"
+  },
+  "hybrid_recommender": {
+    "Precision@10": 0.072,
+    "Recall@10": 0.022528521070893953,
+    "NDCG@10": 0.08173887676913509,
+    "HitRate@10": 0.32,
+    "n_users_evaluated": 25,
+    "Coverage@10": 0.03715869431328269
+  }
+}

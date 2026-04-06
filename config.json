@@ -1,0 +1,29 @@
+{
+  "data": {
+    "raw_path": "data/raw/ml-latest-small",
+    "processed_path": "data/processed"
+  },
+  "models": {
+    "models_dir": "models",
+    "collaborative_filter": {
+      "n_factors": 50,
+      "random_state": 42
+    },
+    "content_filter": {
+      "max_features": 5000
+    },
+    "hybrid": {
+      "cf_weight": 0.7,
+      "cbf_weight": 0.3
+    }
+  },
+  "training": {
+    "test_ratio": 0.2,
+    "min_ratings_per_user": 5
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "default_n_recommendations": 10
+  }
+}

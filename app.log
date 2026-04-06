@@ -1,0 +1,222 @@
+2026-04-06 16:41:59,411 - INFO - Models will be saved to: C:\Users\theof\Documents\CODE\GIT\recommendation-system\models
+2026-04-06 16:41:59,411 - INFO - Loading MovieLens data …
+2026-04-06 16:41:59,452 - INFO - Loaded 9742 movies from C:\Users\theof\Documents\CODE\GIT\recommendation-system\src\..\data\raw\ml-latest-small\movies.csv
+2026-04-06 16:41:59,491 - INFO - Loaded 100836 ratings — 610 users, 9724 movies
+2026-04-06 16:41:59,492 - INFO - Raw data: 9742 movies, 100836 ratings, 610 users
+2026-04-06 16:41:59,513 - INFO - Train set: 72219 ratings | Test set: 18055 ratings
+2026-04-06 16:41:59,513 - INFO - ============================================================
+2026-04-06 16:41:59,513 - INFO - Training Collaborative Filter (SVD, 50 factors) …
+2026-04-06 16:41:59,514 - INFO - CollaborativeFilter.fit — building user-item matrix …
+2026-04-06 16:41:59,630 - INFO - CollaborativeFilter fitted — 513 users, 3548 movies, 50 latent factors
+2026-04-06 16:41:59,630 - INFO - CF training time: 0.1s
+2026-04-06 16:41:59,699 - WARNING - user_id 567 not in training data
+2026-04-06 16:41:59,701 - WARNING - user_id 209 not in training data
+2026-04-06 16:41:59,701 - WARNING - user_id 329 not in training data
+2026-04-06 16:41:59,702 - WARNING - user_id 106 not in training data
+2026-04-06 16:41:59,752 - WARNING - user_id 30 not in training data
+2026-04-06 16:41:59,753 - WARNING - user_id 551 not in training data
+2026-04-06 16:41:59,754 - WARNING - user_id 515 not in training data
+2026-04-06 16:41:59,788 - WARNING - user_id 408 not in training data
+2026-04-06 16:41:59,824 - WARNING - user_id 363 not in training data
+2026-04-06 16:41:59,826 - WARNING - user_id 196 not in training data
+2026-04-06 16:41:59,831 - WARNING - user_id 495 not in training data
+2026-04-06 16:41:59,831 - WARNING - user_id 98 not in training data
+2026-04-06 16:41:59,850 - WARNING - user_id 365 not in training data
+2026-04-06 16:41:59,851 - WARNING - user_id 291 not in training data
+2026-04-06 16:41:59,852 - WARNING - user_id 433 not in training data
+2026-04-06 16:41:59,852 - WARNING - user_id 352 not in training data
+2026-04-06 16:41:59,854 - WARNING - user_id 153 not in training data
+2026-04-06 16:41:59,873 - WARNING - user_id 67 not in training data
+2026-04-06 16:41:59,874 - WARNING - user_id 306 not in training data
+2026-04-06 16:41:59,874 - WARNING - user_id 548 not in training data
+2026-04-06 16:41:59,875 - WARNING - user_id 331 not in training data
+2026-04-06 16:41:59,875 - WARNING - user_id 25 not in training data
+2026-04-06 16:41:59,880 - WARNING - user_id 526 not in training data
+2026-04-06 16:41:59,881 - WARNING - user_id 18 not in training data
+2026-04-06 16:41:59,881 - WARNING - user_id 413 not in training data
+2026-04-06 16:41:59,882 - WARNING - user_id 77 not in training data
+2026-04-06 16:41:59,884 - WARNING - user_id 418 not in training data
+2026-04-06 16:41:59,887 - WARNING - user_id 272 not in training data
+2026-04-06 16:41:59,888 - WARNING - user_id 517 not in training data
+2026-04-06 16:41:59,889 - WARNING - user_id 556 not in training data
+2026-04-06 16:41:59,889 - WARNING - user_id 190 not in training data
+2026-04-06 16:41:59,890 - WARNING - user_id 525 not in training data
+2026-04-06 16:41:59,890 - WARNING - user_id 534 not in training data
+2026-04-06 16:41:59,891 - WARNING - user_id 89 not in training data
+2026-04-06 16:41:59,891 - WARNING - user_id 475 not in training data
+2026-04-06 16:41:59,893 - WARNING - user_id 319 not in training data
+2026-04-06 16:41:59,893 - WARNING - user_id 24 not in training data
+2026-04-06 16:41:59,894 - WARNING - user_id 445 not in training data
+2026-04-06 16:41:59,894 - WARNING - user_id 258 not in training data
+2026-04-06 16:41:59,895 - WARNING - user_id 279 not in training data
+2026-04-06 16:41:59,895 - WARNING - user_id 401 not in training data
+2026-04-06 16:41:59,896 - WARNING - user_id 252 not in training data
+2026-04-06 16:41:59,896 - WARNING - user_id 519 not in training data
+2026-04-06 16:41:59,897 - WARNING - user_id 210 not in training data
+2026-04-06 16:41:59,897 - WARNING - user_id 52 not in training data
+2026-04-06 16:41:59,898 - WARNING - user_id 339 not in training data
+2026-04-06 16:41:59,898 - WARNING - user_id 461 not in training data
+2026-04-06 16:41:59,899 - WARNING - user_id 424 not in training data
+2026-04-06 16:41:59,899 - WARNING - user_id 125 not in training data
+2026-04-06 16:41:59,900 - WARNING - user_id 10 not in training data
+2026-04-06 16:41:59,909 - WARNING - user_id 184 not in training data
+2026-04-06 16:41:59,910 - WARNING - user_id 596 not in training data
+2026-04-06 16:41:59,911 - WARNING - user_id 561 not in training data
+2026-04-06 16:41:59,913 - WARNING - user_id 122 not in training data
+2026-04-06 16:41:59,914 - WARNING - user_id 49 not in training data
+2026-04-06 16:41:59,915 - WARNING - user_id 338 not in training data
+2026-04-06 16:41:59,916 - WARNING - user_id 471 not in training data
+2026-04-06 16:41:59,917 - WARNING - user_id 148 not in training data
+2026-04-06 16:41:59,918 - WARNING - user_id 523 not in training data
+2026-04-06 16:41:59,919 - WARNING - user_id 305 not in training data
+2026-04-06 16:41:59,920 - WARNING - user_id 564 not in training data
+2026-04-06 16:41:59,921 - WARNING - user_id 296 not in training data
+2026-04-06 16:41:59,921 - WARNING - user_id 212 not in training data
+2026-04-06 16:41:59,935 - WARNING - user_id 550 not in training data
+2026-04-06 16:41:59,965 - WARNING - user_id 41 not in training data
+2026-04-06 16:41:59,967 - WARNING - user_id 549 not in training data
+2026-04-06 16:41:59,968 - WARNING - user_id 557 not in training data
+2026-04-06 16:41:59,969 - WARNING - user_id 362 not in training data
+2026-04-06 16:41:59,969 - WARNING - user_id 514 not in training data
+2026-04-06 16:41:59,970 - WARNING - user_id 560 not in training data
+2026-04-06 16:41:59,970 - WARNING - user_id 400 not in training data
+2026-04-06 16:41:59,971 - WARNING - user_id 382 not in training data
+2026-04-06 16:41:59,971 - WARNING - user_id 610 not in training data
+2026-04-06 16:41:59,972 - WARNING - user_id 141 not in training data
+2026-04-06 16:41:59,972 - WARNING - user_id 47 not in training data
+2026-04-06 16:41:59,973 - WARNING - user_id 159 not in training data
+2026-04-06 16:41:59,973 - WARNING - user_id 205 not in training data
+2026-04-06 16:41:59,974 - WARNING - user_id 459 not in training data
+2026-04-06 16:41:59,974 - WARNING - user_id 73 not in training data
+2026-04-06 16:41:59,975 - WARNING - user_id 426 not in training data
+2026-04-06 16:41:59,975 - WARNING - user_id 491 not in training data
+2026-04-06 16:42:00,396 - INFO - CF metrics: {'RMSE': 1.1023472996066142, 'MAE': 0.8394286704254357, 'n_evaluated': 100, 'Precision@10': 0.016, 'Recall@10': 0.00486289949849272, 'NDCG@10': 0.018824293314044373, 'HitRate@10': 0.07, 'n_users_evaluated': 100, 'Coverage@10': 0.03715869431328269}
+2026-04-06 16:42:00,414 - INFO - ============================================================
+2026-04-06 16:42:00,414 - INFO - Training Content-Based Filter (TF-IDF + cosine) …
+2026-04-06 16:42:00,414 - INFO - ContentBasedFilter.fit — building TF-IDF matrix …
+2026-04-06 16:42:00,536 - INFO - ContentBasedFilter fitted — 9742 movies, vocab size 5000
+2026-04-06 16:42:00,536 - INFO - CBF training time: 0.1s
+2026-04-06 16:42:00,636 - INFO - CBF saved (no rating-prediction evaluation for content-only model)
+2026-04-06 16:42:00,636 - INFO - ============================================================
+2026-04-06 16:42:00,636 - INFO - Training Hybrid Recommender (CF 70% + CBF 30%) …
+2026-04-06 16:42:00,636 - INFO - CollaborativeFilter.fit — building user-item matrix …
+2026-04-06 16:42:00,767 - INFO - CollaborativeFilter fitted — 513 users, 3548 movies, 50 latent factors
+2026-04-06 16:42:00,768 - INFO - ContentBasedFilter.fit — building TF-IDF matrix …
+2026-04-06 16:42:00,886 - INFO - ContentBasedFilter fitted — 9742 movies, vocab size 5000
+2026-04-06 16:42:00,886 - INFO - Hybrid training time: 0.2s
+2026-04-06 16:42:00,888 - WARNING - user_id 567 not in training data
+2026-04-06 16:42:00,889 - WARNING - user_id 209 not in training data
+2026-04-06 16:42:00,890 - WARNING - user_id 329 not in training data
+2026-04-06 16:42:00,890 - WARNING - user_id 106 not in training data
+2026-04-06 16:42:00,940 - WARNING - user_id 30 not in training data
+2026-04-06 16:42:00,941 - WARNING - user_id 551 not in training data
+2026-04-06 16:42:00,941 - WARNING - user_id 515 not in training data
+2026-04-06 16:42:00,968 - WARNING - user_id 408 not in training data
+2026-04-06 16:42:01,002 - WARNING - user_id 363 not in training data
+2026-04-06 16:42:01,003 - WARNING - user_id 196 not in training data
+2026-04-06 16:42:01,009 - WARNING - user_id 495 not in training data
+2026-04-06 16:42:01,009 - WARNING - user_id 98 not in training data
+2026-04-06 16:42:01,034 - WARNING - user_id 365 not in training data
+2026-04-06 16:42:01,035 - WARNING - user_id 291 not in training data
+2026-04-06 16:42:01,036 - WARNING - user_id 433 not in training data
+2026-04-06 16:42:01,036 - WARNING - user_id 352 not in training data
+2026-04-06 16:42:01,038 - WARNING - user_id 153 not in training data
+2026-04-06 16:42:01,057 - WARNING - user_id 67 not in training data
+2026-04-06 16:42:01,057 - WARNING - user_id 306 not in training data
+2026-04-06 16:42:01,058 - WARNING - user_id 548 not in training data
+2026-04-06 16:42:01,058 - WARNING - user_id 331 not in training data
+2026-04-06 16:42:01,059 - WARNING - user_id 25 not in training data
+2026-04-06 16:42:01,064 - WARNING - user_id 526 not in training data
+2026-04-06 16:42:01,065 - WARNING - user_id 18 not in training data
+2026-04-06 16:42:01,065 - WARNING - user_id 413 not in training data
+2026-04-06 16:42:01,066 - WARNING - user_id 77 not in training data
+2026-04-06 16:42:01,069 - WARNING - user_id 418 not in training data
+2026-04-06 16:42:01,073 - WARNING - user_id 272 not in training data
+2026-04-06 16:42:01,073 - WARNING - user_id 517 not in training data
+2026-04-06 16:42:01,074 - WARNING - user_id 556 not in training data
+2026-04-06 16:42:01,074 - WARNING - user_id 190 not in training data
+2026-04-06 16:42:01,075 - WARNING - user_id 525 not in training data
+2026-04-06 16:42:01,075 - WARNING - user_id 534 not in training data
+2026-04-06 16:42:01,076 - WARNING - user_id 89 not in training data
+2026-04-06 16:42:01,076 - WARNING - user_id 475 not in training data
+2026-04-06 16:42:01,078 - WARNING - user_id 319 not in training data
+2026-04-06 16:42:01,078 - WARNING - user_id 24 not in training data
+2026-04-06 16:42:01,079 - WARNING - user_id 445 not in training data
+2026-04-06 16:42:01,080 - WARNING - user_id 258 not in training data
+2026-04-06 16:42:01,082 - WARNING - user_id 279 not in training data
+2026-04-06 16:42:01,083 - WARNING - user_id 401 not in training data
+2026-04-06 16:42:01,084 - WARNING - user_id 252 not in training data
+2026-04-06 16:42:01,085 - WARNING - user_id 519 not in training data
+2026-04-06 16:42:01,085 - WARNING - user_id 210 not in training data
+2026-04-06 16:42:01,086 - WARNING - user_id 52 not in training data
+2026-04-06 16:42:01,086 - WARNING - user_id 339 not in training data
+2026-04-06 16:42:01,087 - WARNING - user_id 461 not in training data
+2026-04-06 16:42:01,088 - WARNING - user_id 424 not in training data
+2026-04-06 16:42:01,088 - WARNING - user_id 125 not in training data
+2026-04-06 16:42:01,089 - WARNING - user_id 10 not in training data
+2026-04-06 16:42:01,094 - WARNING - user_id 184 not in training data
+2026-04-06 16:42:01,094 - WARNING - user_id 596 not in training data
+2026-04-06 16:42:01,095 - WARNING - user_id 561 not in training data
+2026-04-06 16:42:01,095 - WARNING - user_id 122 not in training data
+2026-04-06 16:42:01,096 - WARNING - user_id 49 not in training data
+2026-04-06 16:42:01,097 - WARNING - user_id 338 not in training data
+2026-04-06 16:42:01,097 - WARNING - user_id 471 not in training data
+2026-04-06 16:42:01,098 - WARNING - user_id 148 not in training data
+2026-04-06 16:42:01,098 - WARNING - user_id 523 not in training data
+2026-04-06 16:42:01,099 - WARNING - user_id 305 not in training data
+2026-04-06 16:42:01,099 - WARNING - user_id 564 not in training data
+2026-04-06 16:42:01,100 - WARNING - user_id 296 not in training data
+2026-04-06 16:42:01,100 - WARNING - user_id 212 not in training data
+2026-04-06 16:42:01,115 - WARNING - user_id 550 not in training data
+2026-04-06 16:42:01,145 - WARNING - user_id 41 not in training data
+2026-04-06 16:42:01,145 - WARNING - user_id 549 not in training data
+2026-04-06 16:42:01,146 - WARNING - user_id 557 not in training data
+2026-04-06 16:42:01,146 - WARNING - user_id 362 not in training data
+2026-04-06 16:42:01,147 - WARNING - user_id 514 not in training data
+2026-04-06 16:42:01,147 - WARNING - user_id 560 not in training data
+2026-04-06 16:42:01,148 - WARNING - user_id 400 not in training data
+2026-04-06 16:42:01,148 - WARNING - user_id 382 not in training data
+2026-04-06 16:42:01,149 - WARNING - user_id 610 not in training data
+2026-04-06 16:42:01,149 - WARNING - user_id 141 not in training data
+2026-04-06 16:42:01,150 - WARNING - user_id 47 not in training data
+2026-04-06 16:42:01,150 - WARNING - user_id 159 not in training data
+2026-04-06 16:42:01,151 - WARNING - user_id 205 not in training data
+2026-04-06 16:42:01,151 - WARNING - user_id 459 not in training data
+2026-04-06 16:42:01,152 - WARNING - user_id 73 not in training data
+2026-04-06 16:42:01,152 - WARNING - user_id 426 not in training data
+2026-04-06 16:42:01,153 - WARNING - user_id 491 not in training data
+2026-04-06 16:42:01,600 - INFO - Hybrid metrics: {'Precision@10': 0.016, 'Recall@10': 0.00486289949849272, 'NDCG@10': 0.018824293314044373, 'HitRate@10': 0.07, 'n_users_evaluated': 100, 'Coverage@10': 0.03715869431328269}
+2026-04-06 16:43:22,640 - INFO - Models will be saved to: C:\Users\theof\Documents\CODE\GIT\recommendation-system\models
+2026-04-06 16:43:22,640 - INFO - Loading MovieLens data …
+2026-04-06 16:43:22,678 - INFO - Loaded 9742 movies from C:\Users\theof\Documents\CODE\GIT\recommendation-system\src\..\data\raw\ml-latest-small\movies.csv
+2026-04-06 16:43:22,722 - INFO - Loaded 100836 ratings — 610 users, 9724 movies
+2026-04-06 16:43:22,723 - INFO - Raw data: 9742 movies, 100836 ratings, 610 users
+2026-04-06 16:43:22,731 - INFO - filter_min_interactions: 100836 -> 90274 ratings (610 users, 3650 movies)
+2026-04-06 16:43:22,739 - INFO - Train set: 72219 ratings | Test set: 18055 ratings
+2026-04-06 16:43:22,739 - INFO - ============================================================
+2026-04-06 16:43:22,739 - INFO - Training Collaborative Filter (SVD, 50 factors) …
+2026-04-06 16:43:22,739 - INFO - CollaborativeFilter.fit — building user-item matrix …
+2026-04-06 16:43:22,860 - INFO - CollaborativeFilter fitted — 513 users, 3548 movies, 50 latent factors
+2026-04-06 16:43:22,861 - INFO - CF training time: 0.1s
+2026-04-06 16:43:22,930 - INFO - Rating metrics -> {'RMSE': 1.1023472996066142, 'MAE': 0.8394286704254357, 'n_evaluated': 100}
+2026-04-06 16:43:23,267 - INFO - Ranking metrics (k=10) -> {'Precision@10': 0.072, 'Recall@10': 0.022528521070893953, 'NDCG@10': 0.08173887676913509, 'HitRate@10': 0.32, 'n_users_evaluated': 25}
+2026-04-06 16:43:23,677 - INFO - CF metrics: {'RMSE': 1.1023472996066142, 'MAE': 0.8394286704254357, 'n_evaluated': 100, 'Precision@10': 0.072, 'Recall@10': 0.022528521070893953, 'NDCG@10': 0.08173887676913509, 'HitRate@10': 0.32, 'n_users_evaluated': 25, 'Coverage@10': 0.03715869431328269}
+2026-04-06 16:43:23,697 - INFO - CollaborativeFilter saved -> C:\Users\theof\Documents\CODE\GIT\recommendation-system\src\..\models\collaborative_filter.pkl
+2026-04-06 16:43:23,697 - INFO - ============================================================
+2026-04-06 16:43:23,697 - INFO - Training Content-Based Filter (TF-IDF + cosine) …
+2026-04-06 16:43:23,697 - INFO - ContentBasedFilter.fit — building TF-IDF matrix …
+2026-04-06 16:43:23,815 - INFO - ContentBasedFilter fitted — 9742 movies, vocab size 5000
+2026-04-06 16:43:23,816 - INFO - CBF training time: 0.1s
+2026-04-06 16:43:23,961 - INFO - ContentBasedFilter saved -> C:\Users\theof\Documents\CODE\GIT\recommendation-system\src\..\models\content_filter.pkl
+2026-04-06 16:43:23,961 - INFO - CBF saved (no rating-prediction evaluation for content-only model)
+2026-04-06 16:43:23,961 - INFO - ============================================================
+2026-04-06 16:43:23,961 - INFO - Training Hybrid Recommender (CF 70% + CBF 30%) …
+2026-04-06 16:43:23,961 - INFO - CollaborativeFilter.fit — building user-item matrix …
+2026-04-06 16:43:24,094 - INFO - CollaborativeFilter fitted — 513 users, 3548 movies, 50 latent factors
+2026-04-06 16:43:24,094 - INFO - ContentBasedFilter.fit — building TF-IDF matrix …
+2026-04-06 16:43:24,217 - INFO - ContentBasedFilter fitted — 9742 movies, vocab size 5000
+2026-04-06 16:43:24,218 - INFO - Hybrid training time: 0.3s
+2026-04-06 16:43:24,538 - INFO - Ranking metrics (k=10) -> {'Precision@10': 0.072, 'Recall@10': 0.022528521070893953, 'NDCG@10': 0.08173887676913509, 'HitRate@10': 0.32, 'n_users_evaluated': 25}
+2026-04-06 16:43:24,959 - INFO - Hybrid metrics: {'Precision@10': 0.072, 'Recall@10': 0.022528521070893953, 'NDCG@10': 0.08173887676913509, 'HitRate@10': 0.32, 'n_users_evaluated': 25, 'Coverage@10': 0.03715869431328269}
+2026-04-06 16:43:25,059 - INFO - HybridRecommender saved -> C:\Users\theof\Documents\CODE\GIT\recommendation-system\src\..\models\hybrid_recommender.pkl
+2026-04-06 16:43:25,060 - INFO - Metrics saved -> C:\Users\theof\Documents\CODE\GIT\recommendation-system\src\..\models\metrics.json
